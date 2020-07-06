@@ -1,0 +1,91 @@
+﻿@using TheGioiDiDong_v3.Models;
+@model List<GioHang>
+@{
+    ViewBag.Title = "SuaGioHang";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="color:#ff6a00;font-weight:bold;">Sửa giỏ hàng</h1>
+<style>
+    tr, td, th {
+        border-collapse: collapse;
+        border: 1px solid #857676;
+        padding: 10px;
+    }
+
+    th {
+        background-color: #c1f8d3;
+    }
+
+    tr {
+        background-color: white;
+    }
+</style>
+<div class="w3-card-2">
+    <table>
+        <tr>
+            <th>Mã</th>
+            <th>Tên</th>
+            <th>Hình</th>
+            <th>Giá</th>
+            <th>Loại</th>
+            <th>Hãng</th>
+            <th>Số lượng</th>
+            <th>Thành tiền</th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.sMaSP</td>
+                <td>@item.sTenSP</td>
+                <td><img src="@Url.Content("~/Content/Image/"+item.sHinh)" width="50" height="40" /></td>
+                <td>
+                    @String.Format("{0:0,0}", item.dGia)<sup>VNĐ</sup>
+                </td>
+                <td>@item.sLoaiSP</td>
+                <td>@item.sHangSX</td>
+                @using (Html.BeginForm("CapNhatGioHang", "GioHang", new { @sMaSP = item.sMaSP }, FormMethod.Post,
+                    new { onsubmit = "return KiemTraSoLuong()", name = "frmChinhSua" }))
+                {
+                   
+                    @*Sửa giỏ hàng*@
+                    <td>@Html.TextBox("txtSoLuong", item.iSoLuong)</td>                  
+     
+                    <td>@String.Format("{0:0,0}", item.ThanhTien)<sup>VNĐ</sup></td>
+                    <td>
+                        <button class="w3-blue" type="submit">Cập nhật</button>
+                        <br />
+                        @**Xoá giỏ hàng*@
+                        @Html.ActionLink("Xoá", "XoaGioHang", new { @sMaSP = item.sMaSP })
+                    </td>
+                }
+            </tr>
+        }
+    </table> 
+</div><br />
+<div class="w3-left w3-text-red" style="margin-left:38px;">Số lượng đặt trong khoảng <b>1 - 9999</b> đối với mỗi sản phẩm</div>
+    <script>
+    function KiemTraSoLuong() {
+        var soluong = frmChinhSua.txtSoLuong.value;
+        if (soluong == "") {
+            alert('Số lượng không được để trống');
+            frmChinhSua.txtSoLuong.focus;
+            return false;
+        }
+        if (isNaN(parseInt(soluong)) == true) {
+            alert('Số lượng phải là một số !');
+            frmChinhSua.txtSoLuong.value = "";
+            frmChinhSua.txtSoLuong.focus;
+            return false;
+        }
+        else {
+            if (parseInt(soluong) <= 0 || parseInt(soluong) > 10000) {
+                alert('Số lượng phải nằm trong khoảng 1 đến 9999 !');
+                frmChinhSua.txtSoLuong.value = "";
+                frmChinhSua.txtSoLuong.focus;
+                return false;
+            }
+        }
+    }
+</script>       

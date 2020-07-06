@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (Session["TaiKhoan"] == null)
+{
+    if(Session["GioHang"] == null){
+        <div class="dktc w3-card-12" style="width:50%;"><h2 style="color:red;"> Mời bạn đăng nhập lại</h2></div>
+    }
+    else
+    {
+         <div class="dktc w3-card-12" style="width:50%;"><h2 style="color:red;"> Mời bạn đăng nhập</h2></div>
+    }
+}
+   
+<div id="login">
+    <div class="w3-modal-content w3-card-8 w3-animate-zoom" style="max-width:300px">
+
+        <div class="w3-center">
+            <br>
+            
+        </div>
+        @using (Html.BeginForm("DangNhap", "KhachHang"))
+        {
+            <div class="w3-container">
+                <div class="w3-section">
+                    <label><b>Tên đăng nhập:</b></label>
+                    <input class="w3-input w3-border w3-margin-bottom  w3-hover-pale-green" type="text" placeholder="Nhập tên đăng nhập...." name="txtTenDN" required>
+                    <span onclick="document.getElementById('login').style.display='none'" class="w3-closebtn w3-hover-red w3-container w3-padding-8 w3-display-topright" title="Close Modal">&times;</span>
+                    <label><b>Mật khẩu:</b></label>
+                    <input class="w3-input w3-border w3-hover-pale-green" type="password" placeholder="Nhập mật khẩu...." name="txtMatKhau" required>
+
+                    <button id="btnSubmit" class="w3-btn-block w3-green w3-section w3-padding" type="submit" name="btnSubmit">Đăng nhập</button>
+                </div>
+
+            </div>
+        }
+    </div>
+</div>  
+

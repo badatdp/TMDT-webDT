@@ -1,0 +1,75 @@
+﻿@using TheGioiDiDong_v3.Models
+@model List<GioHang>
+@{
+    ViewBag.Title = "Giỏ hàng của bạn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    tr, td, th {
+        border-collapse: collapse;
+        border: 1px solid #857676;
+        padding: 10px;
+    }
+
+    th {
+        background-color: #c1f8d3;
+    }
+
+    tr {
+        background-color: white;
+    }
+</style>
+<h1 style="color:#ff6a00;font-weight:bold;">@ViewBag.Title</h1>
+<div class="w3-card-2">
+    <table>
+        <tr>
+            <th>Mã</th>
+            <th>Tên</th>
+            <th>Hình</th>
+            <th>Giá</th>
+            <th>Loại</th>
+            <th>Hãng</th>
+            <th>Số lượng</th>
+            <th>Thành tiền</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.sMaSP</td>
+                <td>@item.sTenSP</td>
+                <td><a href="@Url.Action("XemChiTiet", "XemChiTiet", new { @masp=item.sMaSP})"><img src="@Url.Content("~/Content/Image/"+item.sHinh)" width="50" height="40" /></a></td>
+                <td>
+                    @String.Format("{0:0,0}", item.dGia)<sup>VNĐ</sup>
+                </td>
+                <td>@item.sLoaiSP</td>
+                <td>@item.sHangSX</td>
+                <td>@item.iSoLuong</td>
+                <td>@String.Format("{0:0,0}", item.ThanhTien)<sup>VNĐ</sup></td>
+            </tr>
+        }
+
+        <tr>
+            <td colspan="8" style="text-align: right; color: red; font-weight: bold; background-color: #c1f8d3;">@Html.ActionLink("Chỉnh sửa giỏ hàng", "SuaGioHang", "GioHang")</td>
+        </tr>
+        <tr>
+            <td colspan="8">
+
+                @using (Html.BeginForm("DatHang", "GioHang"))
+                {
+                    <button class="w3-btn w3-green w3-right w3-hover-red" type="submit">Đặt Hàng</button>
+                }
+            </td>
+        </tr>
+     
+        <tr>
+            <td colspan="8">
+
+                @using (Html.BeginForm("PaymentWithPaypal", "GioHang"))
+                {
+                    <button class="w3-btn w3-green w3-right w3-hover-red" type="submit">Đặt hàng và thanh Toán Paypal</button>
+                }
+            </td>
+        </tr>
+           
+    </table>
+</div>

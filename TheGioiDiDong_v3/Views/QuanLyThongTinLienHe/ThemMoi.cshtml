@@ -1,0 +1,52 @@
+﻿@model TheGioiDiDong_v3.Models.LienHe
+
+@{
+    ViewBag.Title = "Thêm mới";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>THÊM MỚI LIÊN HỆ</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.tenkhuvuc, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.tenkhuvuc)
+                @Html.ValidationMessageFor(model => model.tenkhuvuc)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.diachi, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.diachi)
+                @Html.ValidationMessageFor(model => model.diachi)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.dienthoai, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.dienthoai)
+                @Html.ValidationMessageFor(model => model.dienthoai)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input class="btnSubmit" type="submit" value="Thêm" style=" margin-top: 1%; margin-left: 25%; width: 100px; height: 50px;" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Trở về", "Index")
+</div>

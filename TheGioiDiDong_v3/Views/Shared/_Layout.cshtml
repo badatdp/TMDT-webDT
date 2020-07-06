@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/CssForIndex.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/linh.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/Content/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/bootstrap/js/bootstrap.min.js"></script>
+    <title>@RenderSection("Title", false)</title>
+    <style>
+        body {
+            cursor: url("http://downloads.totallyfreecursors.com/cursor_files/1pointer49.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/1pointer49.gif"), auto;
+            font-family: 'Times New Roman';
+            background-color: #FAEBD7;
+        }
+
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            height: 300px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <script src="~/Content/js/script.js"></script>
+    <center>
+        @Html.Partial("_NavbarPartial");
+        <div class="hotrokhachhang">
+            <img src="" />
+        </div>
+        <!--***Hỗ trợ khách hàng***-->
+        @Html.Partial("_HoTroKhachHangPartial");
+        <div class="noidung" style="height:auto">
+            <div style="height:30px; width:80%;background-color:#FAEBD7;">
+               
+            </div>
+            @Html.Partial("_MenuPartial")
+            <!--Máy tính-->
+            @RenderBody()
+
+        </div>
+        </div>
+        <!--***footer***-->
+        @Html.Partial("_FooterPartial")
+    </center>
+    <!--***LOGIN***-->
+    @Html.Partial("_DangNhapPartial")
+</body>
+</html>

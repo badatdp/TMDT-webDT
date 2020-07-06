@@ -1,0 +1,348 @@
+body{
+    background-color:#FAEBD7;
+}
+div.noidung{
+    margin-top: 5px;
+    width:75%;
+    height:auto;
+    border:1px solid #ddd;
+    border-top: none;
+    background-color:#F0F8FF;
+}
+div.hotrokhachhang{
+   position: fixed;
+	margin-left: 96%;
+	margin-top: 28%;
+	float:right;
+	z-index: -1;
+}
+div.nhaphotro:hover{
+opacity: 1;
+z-index: 1;
+}
+div.nhaphotro{
+    position: fixed;
+    margin-left: 87.7%;
+    margin-top: 28%;
+    float:right;
+    border:1px solid red;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width:250px;
+    text-align: left;
+    z-index: 1;
+    opacity: 0;
+}
+div.hotrokhachhang .nhaphotro{ display: block; }
+
+div.frmGoiLai{
+    background-color: white;
+    text-align:left;
+}
+div.frmGoiLai input,div.frmGoiLai select,div.frmGoiLai textarea{
+    width:60%;
+    margin-bottom: 7px;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.banner embed{
+margin-right: 50%;
+}
+div.mn1{
+	width:100%;
+	background-color:#0000FF;
+}
+div.mn1 li a:hover {
+font-weight: bold;
+}
+/*ul.menu1{
+    padding:0;
+    margin: 0;
+}
+ul.menu1 li{
+    padding:5px;
+    display: inline;
+}
+ul.menu1 li a{
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+    float:right;
+    padding-right:18px;
+    font-size:14px;
+}
+ul.menu1 li a:hover{
+    color:red;*/
+}
+div.divMenuTimKiem{
+    width: 70%;
+}
+div.header{background-color: black;}
+div.frmDangKy{
+    width:80%;
+    height:700px;
+    border:1px solid black;
+    margin-top: 5%;
+    background-color: white;
+}
+div.ttcanhan{
+    margin-top: 5%;
+    width:90%;
+}
+.fieldset{
+    border-top: 10px solid #ddd;
+    max-width: 100%;
+    border-left:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-right:1px solid #ddd;
+    text-align: left;
+    padding:5%;
+}
+.legend{color:black;
+padding: 10px;
+font-weight: bold;
+font-size: 20px;}
+select,input(not type="radio"){
+    margin-left:50%;
+    padding:1%;
+}
+div.danhmucsp{
+    border-top: 20px;
+    border:1px solid #ddd;
+text-align: left;
+width: 50%;
+height: 2480px;
+float: left}
+li.item{
+    display: inline-block;
+    float:left;
+    font-size: 13px;
+    padding:2px 8px;
+    background-color:#FFE4E1;
+}
+li.item:hover{ background-color: #ADD8E6; }
+div.sp{
+    width: 25%;
+    height: 300px;
+    border:1px solid #ddd;
+    float:left;
+    background-color: white;
+    padding: 3px;
+}
+/*div.sp::after{
+    background-color: yellow;
+    content: "--trả góp lãi xuất 0%";
+    color:red;
+    font-weight: bold;
+    }*/
+.fieldset1{
+    border-top: 10px solid blue;
+    max-width: 100%;
+    border-left :none;
+    border-bottom:none;
+    border-right:none;
+    text-align: left;
+}
+.legend1{color:blue;
+padding: 10px;
+font-weight: bold;
+font-size: 20px;}
+div.imgSP img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+div.tenSP{
+    font-weight: bold;
+}
+div.giaSP{
+    font-size: 17px;
+    color:  #DC143C;
+    margin:10px 15px;
+    font-weight: bold;
+}
+.btnSP{ float:right; 
+margin-right: 10px;}
+div.footer{
+    width:75%;
+    background-color: #ddd;
+    height: auto;
+    padding: 20px;
+    font-weight: bold;
+    color:black;
+    border-top:10px solid #ddd;
+}
+div.footer span{border-radius: 5px;}
+div.BoSung{
+    width:70%;
+    float:left;
+}
+div.lienhe{width:30%;
+border-left:1px dashed black;
+float:left;
+padding: 10px;}
+div.dkkm{
+    border: 1px dashed black;
+    margin:2px;
+    padding:5px;
+    border-left: 5px solid blue;
+    background-color:#B0C4DE;
+}
+div.thongtinlienhe{
+    text-align: left;
+    font-size:14px;
+}
+li.lhDuong{
+    list-style-image: url(../image/location.png);
+}
+li.lhSdt{
+    list-style-image: url(../image/phone.png);
+}
+li.lhEmail{
+    list-style-image: url(../image/mail.png);
+}
+div.sanpham{
+    width:30%;
+}
+div.chinhsachhotro{
+    width:50%;
+}
+div.sanpham,div.chinhsachhotro{
+    text-align: left;
+    float:left; 
+}
+div.sanpham li ,div.chinhsachhotro li{
+    list-style-type: none;
+    font-weight: normal;
+}
+a{  text-decoration: none; }
+div.BoSung li a:hover{color:red;}
+div.cachthanhtoan{width: 100%;
+float: left;
+border:none;
+border-top:1px dashed black;}
+div.w3-dropdown-content{
+    text-align: left;
+}
+/*Quang cao*/
+div.quangcao{
+    float:left;
+    width:48%;
+    height:258px;
+    margin-bottom:20px;
+    margin-left:15px;
+    border:1px dashed #96989b;
+}
+div.quangcao a:hover{
+    color:#2e318d;
+}
+div.hinhQC img{
+    width:100%;
+    height:200px;
+}
+div.hinhQC img:hover{
+    animation-duration:3s;
+    opacity:0.8;
+}
+div.ndQC{
+    width:100%;
+    padding:5px;
+    background-color:white;
+}
+div.thoihanQC{
+    color:#404041;
+    font-weight:bold;
+}
+div.thoihanQC:hover{
+    color:red;
+}
+/*Tuyển dụng*/
+div.tuyendung{
+    margin-left:5%;
+    margin-right:5%;
+    font-family:Tahoma;
+}
+div.tuyendung td{
+    border-bottom:1px solid #ddd;
+     padding: 10px;
+     background-color:white;
+}
+    div.tuyendung th {
+        font-weight:normal;
+        border: 1px solid #ddd;
+        padding: 10px;
+        background-color:rgba(109, 110, 113, 0.12);
+        color:#888888;
+        text-align:center;
+    }
+    td.vitri{
+        color:#4a90e2;
+        width:40%;
+    }
+    td.vitri a:hover{
+        color:#f76b1b;
+    }
+    td.luong{
+        color:#e81c24;
+         width:15%;
+         text-align:center;
+    }
+    td.soluong{
+         width:15%;
+         text-align:center;
+    }
+    td.noilamviec{
+        color:#888888;
+         width:30%;
+         text-align:center;
+    }
+    span.vitrihot{
+        background-color:#f76b1b;
+        color:white;
+        border-radius:2px;
+        padding:3px;
+        font-size:11px;
+    }
+    /*Liên hệ*/
+    div.divLienHe{
+        border:1px solid black;
+        width:100%;
+        height:220px;
+        float:left;
+    }
+    div.khuvuc{
+        background-color:#000;
+        color:#f7c200;
+        height:50px;
+        width:100%;
+        font-weight:bold;
+        line-height:45px;
+        text-align:center;
+        font-size:20px;
+    }
+    div.info{
+        width:100%;
+        height:140px;
+        line-height:40px;
+    }
+    div.bando{
+        width:40%;
+        height:300px;
+        float:left;
+    }
+    div.ttKhuVuc{
+        width:30%;
+        float:left;
+        background-color:white;
+    }
+    li.lc{
+        list-style-image:url(../image/location.png);
+    }
+    li.tl{
+        list-style-image: url(../image/phone.png);
+    }
+   

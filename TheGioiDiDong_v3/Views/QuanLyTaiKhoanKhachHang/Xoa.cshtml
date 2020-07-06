@@ -1,0 +1,122 @@
+﻿@model TheGioiDiDong_v3.Models.KhachHang
+
+@{
+    ViewBag.Title = "Xoá";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    dt, dd {
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    dt {
+        color: #080515;
+        font-weight: normal;
+        color: #03052c;
+    }
+</style>
+<h2>XOÁ TÀI KHOẢN</h2>
+
+<h3>Bạn có thật sự muốn xoá tài khoản này?</h3>
+<hr />
+<div style="font-size:19px;margin:10px;">
+    <dl class="dl-horizontal">
+        <dt style="text-align: left;">
+            @Html.DisplayNameFor(model => model.ten)
+        </dt>
+
+        <dd>
+            <b>@Html.DisplayFor(model => model.ten)</b>
+        </dd>
+
+        <dt style="text-align: left;">
+            @Html.DisplayNameFor(model => model.ngaysinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ngaysinh)
+        </dd>
+
+        <dt style="text-align: left;">
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt style="text-align: left;">
+            @Html.DisplayNameFor(model => model.tenDN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tenDN)
+        </dd>
+
+        <dt style="text-align: left;">
+            @Html.DisplayNameFor(model => model.matkhau)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.matkhau)
+        </dd>
+
+        <dt style="text-align: left;">
+            @Html.DisplayNameFor(model => model.dienthoai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dienthoai)
+        </dd>
+
+        <dt style="text-align: left;">
+            @Html.DisplayNameFor(model => model.gioitinh)
+        </dt>
+
+        <dd>
+            @if (Model.gioitinh == true)
+        {
+            @Html.Label("Nam", new { style = "font-size:19px" });
+        }
+        else
+        {
+            @Html.Label("Nữ", new { style = "font-size:19px" });
+        }
+        </dd>
+
+        <dt style="text-align: left;">
+            @Html.DisplayNameFor(model => model.diachi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.diachi)
+        </dd>
+
+        <dt style="text-align: left;">
+            @Html.DisplayNameFor(model => model.role)
+        </dt>
+
+        <dd>
+            @if (Model.role == 1)
+            {
+                 @Html.Label("Admin", new { style = "font-size:19px" });
+            }
+            else
+            {
+               @Html.Label("Khách hàng", new { style = "font-size:19px" });
+            }
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xoá" class="btn btn-default" /> |
+            @Html.ActionLink("Trở về", "Index")
+        </div>
+    }
+</div>

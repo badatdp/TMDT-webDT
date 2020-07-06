@@ -1,0 +1,29 @@
+﻿
+@using TheGioiDiDong_v3.Models;
+<div class="mn1 w3-top">
+    <ul class="w3-navbar w3-card-2 w3-light-grey">
+        <li class="w3-left w3-margin-left">
+           @using (Html.BeginForm("KetQuaTimKiem", "TimKiem",FormMethod.Post))
+           {
+            //<form action="#" method="post" name="frmTimKiemIndex" onsubmit="return checkTimKiemIndex()">
+                @*<input type="search" name="txtTimKiem" placeholder="Nhập thông tin cần tìm.." size="40">*@
+               @Html.TextBox("txtTimKiem", "", new { @placeholder="Nhập nội dung tìm kiếm.."})
+                <button class="w3-btn" type="submit"> Tìm kiếm sản phẩm</button>
+            //</form>
+           }
+        </li>
+        
+            @if (Session["TaiKhoan"] == null)
+{
+    <li class="w3-right">@Html.ActionLink("Đăng ký", "DangKy", "KhachHang", null, htmlAttributes: new { @class = "DangNhap" }) </li>
+     <li class="w3-right"><a onclick="document.getElementById('login').style.display='block'"><i class="fa fa-unlock" aria-hidden="true"></i> Đăng nhập</a></li>
+}
+        else
+            {
+                        <li class="w3-right ">@Html.ActionLink("Đăng xuất", "DangXuat", "KhachHang")</li>
+                               <li class="w3-right">  <a href="#"><i class="fa fa-user fa-fw"></i>@Session["TaiKhoan"].ToString()</a></li>
+            }
+            <!-- /.dropdown-user -->
+        <li class="w3-right"><a href="@Url.Action("GioHang","GioHang")">Giỏ hàng @Html.Action("GioHangPartial", "GioHang")</a></li>
+    </ul>
+</div>

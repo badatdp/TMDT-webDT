@@ -1,0 +1,72 @@
+﻿@model TheGioiDiDong_v3.Models.DonHang
+
+@{
+    ViewBag.Title = "Chỉnh sửa";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>CHỈNH SỬA ĐƠN HÀNG</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+        @*@Html.HiddenFor(model => model.madonhang)*@
+        <div class="form-group">
+            @Html.LabelFor(model => model.madonhang, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.madonhang, new { @readonly = true})
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.maKH, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.maKH, new { @readonly = true })
+                @Html.ValidationMessageFor(model => model.maKH)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.ngaydat, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.ngaydat)
+                @Html.ValidationMessageFor(model => model.ngaydat)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.ngaygiao, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.ngaygiao)
+                @Html.ValidationMessageFor(model => model.ngaygiao)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.dathanhtoan, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.dathanhtoan, new List<SelectListItem>() { new SelectListItem { Text = "Chưa thanh toán", Value = "Chưa thanh toán", Selected = true }, new SelectListItem { Text = "Đã thanh toán", Value = "Đã thanh toán", Selected = false } })
+                @Html.ValidationMessageFor(model => model.dathanhtoan)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.tinhtranggiaohang, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.tinhtranggiaohang, new List<SelectListItem>() { new SelectListItem { Text = "Chưa giao", Value = "Chưa giao", Selected = true }, new SelectListItem { Text = "Đã giao", Value = "Đã giao", Selected = false }})
+                @Html.ValidationMessageFor(model => model.tinhtranggiaohang)
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input class="btnSubmit" type="submit" value="Lưu" style=" margin-top: 1%; margin-left: 25%; width: 100px; height: 50px;" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

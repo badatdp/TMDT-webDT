@@ -1,0 +1,100 @@
+﻿@model TheGioiDiDong_v3.Models.SanPham
+
+@{
+    ViewBag.Title = "Chỉnh sửa";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>CHỈNH SỬA SẢN PHẨM</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+        <div class="form-group">
+            @Html.LabelFor(model => model.maSP, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.maSP)
+                @Html.ValidationMessageFor(model => model.maSP)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.tenSP, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.tenSP)
+                @Html.ValidationMessageFor(model => model.tenSP)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.hinh, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.hinh)
+                @Html.ValidationMessageFor(model => model.hinh)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.gia, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.gia)
+                @Html.ValidationMessageFor(model => model.gia)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.sl_duocmua, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.sl_duocmua)
+                @Html.ValidationMessageFor(model => model.sl_duocmua)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.loaiSP, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.loaiSP, new List<SelectListItem>() { new SelectListItem { Text = "Máy tính", Value = "Máy tính", Selected = true }, new SelectListItem { Text = "Điện thoại Apple", Value = "Điện thoại Apple", Selected = false }, new SelectListItem { Text = "Điện thoại Gaming", Value = "Điện thoại Gaming", Selected = false } })
+                @Html.ValidationMessageFor(model => model.loaiSP)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.hangSX, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.hangSX)
+                @Html.ValidationMessageFor(model => model.hangSX)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.tinhtrangSP, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.tinhtrangSP, new List<SelectListItem>() { new SelectListItem { Text = "Còn hàng", Value = "Còn hàng", Selected = true }, new SelectListItem { Text = "Hết hàng", Value = "Hết hàng", Selected = false } })
+                @Html.ValidationMessageFor(model => model.tinhtrangSP)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.chitiet, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <br />
+            <br />
+            <div class="col-md-10">
+                <textarea name="chitiet">@Model.chitiet</textarea>
+                @Html.ValidationMessageFor(model => model.chitiet)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input class="btnSubmit" type="submit" value="Lưu" style=" margin-top: 1%; margin-left: 25%; width: 100px; height: 50px;" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Trở về", "Index")
+</div>

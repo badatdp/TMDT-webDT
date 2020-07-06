@@ -1,0 +1,68 @@
+﻿@model TheGioiDiDong_v3.Models.TuyenDung
+
+@{
+    ViewBag.Title = "Xoá";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    dt, dd {
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    dt {
+        color: #080515;
+        font-weight: normal;
+        color: #03052c;
+    }
+</style>
+<h2>XOÁ THÔNG TIN TUYỂN DỤNG</h2>
+
+<h3>Bạn có thật sự muốn xoá thông tin tuyển dụng này?</h3>
+<div style="font-size:19px;margin:10px;">
+    <hr />
+    <dl class="dl-horizontal">
+        <dt style="text-align: left;">
+            @Html.DisplayNameFor(model => model.vitri)
+        </dt>
+
+        <dd>
+            <b>@Html.DisplayFor(model => model.vitri)</b>
+        </dd>
+
+        <dt style="text-align: left;">
+            @Html.DisplayNameFor(model => model.mucluong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.mucluong)
+        </dd>
+
+        <dt style="text-align: left;">
+            @Html.DisplayNameFor(model => model.soluong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.soluong)
+        </dd>
+
+        <dt style="text-align: left;">
+            @Html.DisplayNameFor(model => model.noilamviec)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.noilamviec)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xoá" class="btn btn-default" /> |
+            @Html.ActionLink("Trở về", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,63 @@
+﻿@model TheGioiDiDong_v3.Models.KhuyenMai
+
+@{
+    ViewBag.Title = "Thêm mới";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>THÊM KHUYẾN MÃI MỚI</h2>
+
+@using (Html.BeginForm("ThemMoi", "QuanLyThongTinKhuyenMai", FormMethod.Post, new { @enctype = "multipart/form-data" })) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.tenKM, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.tenKM)
+                @Html.ValidationMessageFor(model => model.tenKM)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.hinhKM, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                    @*Name của thẻ input[file] phải cùng tên với tham số bên Controller*@
+                    <input type="file" name="fileUpload" style="width:150px;" />
+                    @*Thông báo trùng*@
+                    @ViewBag.thongbao
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.thoihan, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.thoihan)
+                @Html.ValidationMessageFor(model => model.thoihan)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.chitiet, new { style = "text-align:left", @class = "control-label col-md-2" })
+            <br />
+            <br />
+            <div class="col-md-10">
+                <textarea name="chitiet">Nhập chi tiết cho chương trình khuyến mãi...</textarea>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input class="btnSubmit" type="submit" value="Thêm" style=" margin-top: 1%; margin-left: 25%; width: 100px; height: 50px;" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Trở về", "Index")
+</div>

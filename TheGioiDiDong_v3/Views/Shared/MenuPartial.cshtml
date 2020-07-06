@@ -1,0 +1,70 @@
+﻿@using TheGioiDiDong_v3.Models
+@model List<SanPham>
+
+<div>
+    <ul id="menu">
+        <li>@Html.ActionLink("Trang chủ", "Index", "Home")</li>
+        <li class="dropdown1">
+            <div class="dropbtn1">@Html.ActionLink("Điện thoại Android", "maytinh", "Home")</div>
+            <div class="dropdown-content1" style="column-count:2;column-rule:1px solid #ddd; ">
+    @foreach (var item in Model.Where(model => model.loaiSP == "Điện thoại Android"))
+    {
+        { <a href="@Url.Action("SanPhamTheoHangSX", "Home", new {@hangSX=item.hangSX})">@item.hangSX</a>}
+    }
+    @*<a href="../HTML/dell.html">Dell</a>
+        <a href="../HTML/sony.html">Sony</a>
+        <a href="../HTML/lenovo.html">Lenovo</a>
+        <a href="../HTML/asus.html">Asus</a>
+        <a href="../HTML/acer.html">Acer</a>
+        <a href="../HTML/hp.html">HP</a>
+        <a href="../HTML/samsung.html">Samsung</a>
+        <a href="../HTML/toshiba.html">Toshiba</a>*@
+            </div>
+        </li>
+        <li class="dropdown1">
+            <div class="dropbtn1">@Html.ActionLink("Điện thoại Apple", "dienthoai", "Home")</div>
+            @*<div class="dropdown-content1" style="column-count:2;column-rule:1px solid #ddd; ">
+               @foreach (var item in Model.Where(model => model.loaiSP == "Điện thoại Apple"))
+                {
+                    { <a href="@Url.Action("SanPhamTheoHangSX", "Home", new {@hangSX=item.hangSX})">@item.hangSX</a>}
+                }
+                @*<a href="../HTML/dell.html">Samsung</a>
+                    <a href="../HTML/sony.html">Apple</a>
+                    <a href="../HTML/lenovo.html">Oppo</a>
+                    <a href="../HTML/asus.html">HTC</a>
+                    <a href="../HTML/acer.html">Sony</a>
+                    <a href="../HTML/hp.html">Motorola</a>
+                    <a href="../HTML/samsung.html">Asus</a>
+                    <a href="../HTML/toshiba.html">LG</a>
+                    <a href="../HTML/dell.html">Lenovo</a>
+                    <a href="../HTML/sony.html">Wing</a>
+                    <a href="../HTML/lenovo.html">Mobiistar</a>
+                    <a href="../HTML/asus.html">Philips</a>
+                    <a href="../HTML/acer.html">Mobell</a>
+                    <a href="../HTML/hp.html">WIKO</a>
+                    <a href="../HTML/samsung.html">Honor</a>
+                    <a href="../HTML/toshiba.html">ZTE</a>*@
+            @*</div>*@
+        </li>
+        <li class="dropdown1">
+            <div class="dropbtn1">@Html.ActionLink("Điện thoại Gaming", "tablet", "Home")</div>
+            @*<div class="dropdown-content1" style="column-count:2;column-rule:1px solid #ddd; ">
+                @foreach (var item in Model.Where(model=>model.loaiSP=="Tablet"))
+                {
+                    { <a href="@Url.Action("SanPhamTheoHangSX", "Home", new {@hangSX=item.hangSX})">@item.hangSX</a>}
+                }
+                @*<a href="../HTML/dell.html">Asus</a>
+                    <a href="../HTML/sony.html">Lenovo</a>
+                    <a href="../HTML/lenovo.html">Acer</a>
+                    <a href="../HTML/asus.html">Huawei</a>
+                    <a href="../HTML/acer.html">Wing</a>
+                    <a href="../HTML/hp.html">Mobiistar</a>
+                    <a href="../HTML/samsung.html">Mobell</a>*@
+            @*</div>*@
+
+        </li>
+        <li>@Html.ActionLink("Khuyến mãi", "khuyenmai", "Home")</li>
+        <li>@Html.ActionLink("Tuyển dụng", "tuyendung", "Home")</li>
+        <li>@Html.ActionLink("Liên hệ", "lienhe", "Home")</li>
+    </ul>
+</div>

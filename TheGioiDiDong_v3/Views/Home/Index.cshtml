@@ -1,0 +1,143 @@
+﻿@using TheGioiDiDong_v3.Models;
+@model List<SanPham>
+@{
+    ViewBag.Title = "Trang chủ";
+}
+@section Title{
+    Trang chủ
+}
+
+<!--Banner-->
+@Html.Partial("_BannerPartial")
+
+<!--Tìm kiếm-->
+@Html.Partial("_TimKiemPartial")
+<div class="khoangcach"></div>
+<div class="danhmucSP">
+    <!--Điện thoại Android-->
+    <div>
+        <fieldset class="fieldset1">
+            <legend class="legend1">Điện thoại Android</legend>
+            <div class="HinhDaiDien"></div>
+            <!--sp1-->
+            <!--Điện thoại Android-->
+            @foreach (var item in Model.Where(item => item.loaiSP == "Điện thoại Android").OrderByDescending(item => item.maSP).Take(8).ToList())
+            {
+                <div class="sp">
+                    <center>
+                        <div class="imgSP"><a href="@Url.Action("XemChiTiet", "XemChiTiet", new { @masp=item.maSP})"><img src="@Url.Content("../Content/image/"+@item.hinh)"></a></div>
+                        <div class="tenSP" title="@item.tenSP">
+                            @if (item.tenSP.Length > 50)
+                            {
+                                <strong>@item.tenSP.Substring(0, 50)...</strong>
+                            }
+                            else
+                            {
+                                <strong> @item.tenSP</strong>
+                            }
+                        </div>
+                    </center>
+                    <div class="giaSP" style="margin-left:20%;"> Giá: @String.Format("{0:0,0}", item.gia) <sup> VNĐ</sup><br></div>
+                    <div style="margin-left:15%;">
+                        @using (Html.BeginForm("ThemGioHang", "GioHang", new { @sMaSP = item.maSP, @strURL = Request.Url.ToString() }))
+                        {<span>
+                                <button class="w3-btn w3-blue btnsp w3-hover-red">
+                                    <a href="@Url.Action("XemChiTiet", "XemChiTiet", new { @masp=item.maSP})" style="color:white;">Chi tiết</a>
+                                </button>
+                            </span>
+                            <span>
+                                <button class="w3-btn w3-blue btnsp w3-hover-red" type="submit" style="cursor:pointer">Mua hàng <i class="fa fa-shopping-cart" aria-hidden="true"></i> </button>
+                            </span>}
+                    </div>
+                </div>
+            }
+        </fieldset>
+    </div>
+    <!--Điện thoại-->
+
+    <fieldset class="fieldset1">
+        <legend class="legend1">Điện thoại Apple</legend>
+        <!--sp1-->
+        <!--Điện thoại Apple-->
+        @foreach (var item in Model.Where(item => item.loaiSP == "Điện thoại Apple").OrderByDescending(item => item.maSP).Take(8).ToList())
+        {
+            <div class="sp">
+                <center>
+                    <div class="imgSP"><a href="@Url.Action("XemChiTiet", "XemChiTiet", new { @masp=item.maSP})"><img src="@Url.Content("../Content/image/"+@item.hinh)"></a></div><br />
+                    <div class="tenSP">
+                        @if (item.tenSP.Length > 30)
+                        {
+                            <strong>@item.tenSP.Substring(0, 30)... </strong>
+                        }
+                        else
+                        {
+                            @item.tenSP
+                        }
+                    </div>
+                </center>
+                <div class="giaSP" style="margin-left:15%;">Giá: @String.Format("{0:0,0}", item.gia) <sup> VNĐ</sup><br></div>
+                <div style="margin-left:15%;">
+                    @using (Html.BeginForm("ThemGioHang", "GioHang", new { @sMaSP = item.maSP, @strURL = Request.Url.ToString() }))
+                    {
+                        <span>
+                            <button class="w3-btn w3-blue btnsp w3-hover-red">
+                                <a href="@Url.Action("XemChiTiet", "XemChiTiet", new { @masp=item.maSP})" style="color:white;">Chi tiết</a>
+                            </button>
+                        </span>
+                        <span><button class="w3-btn w3-blue btnsp w3-hover-red" type="submit" style="cursor:pointer">Mua hàng <i class="fa fa-shopping-cart" aria-hidden="true"></i> </button> </span>}
+                </div>
+
+            </div>
+        }
+    </fieldset>
+
+    <!--Tablet-->
+    <fieldset class="fieldset1">
+        <legend class="legend1">Điện thoại Gaming</legend>
+        <!--sp1-->
+        <!--Tablet-->
+        @foreach (var item in Model.Where(item => item.loaiSP == "Điện thoại Gaming").OrderByDescending(item => item.maSP).Take(8).ToList())
+        {
+            <div class="sp">
+                <center>
+                    <div class="imgSP"><a href="@Url.Action("XemChiTiet", "XemChiTiet", new { @masp=item.maSP})"><img src="@Url.Content("../Content/image/"+@item.hinh)"></a></div><br />
+                    <div class="tenSP">
+                        @if (item.tenSP.Length > 30)
+                        {
+                            <strong>@item.tenSP.Substring(0, 30)...</strong>
+                        }
+                        else
+                        {
+                            <strong>@item.tenSP </strong>
+                        }
+                    </div>
+                </center>
+                <div class="giaSP" style="margin-left:15%;">Giá: @String.Format("{0:0,0}", item.gia)<sup> VNĐ</sup><br> </div>
+                <div style="margin-left:15%;">
+                    @using (Html.BeginForm("ThemGioHang", "GioHang", new { @sMaSP = item.maSP, @strURL = Request.Url.ToString() }))
+                    {
+                        <span>
+                            <button class="w3-btn w3-blue btnsp w3-hover-red">
+                                <a href="@Url.Action("XemChiTiet", "XemChiTiet", new { @masp=item.maSP})" style="color:white;">Chi tiết</a>
+                            </button>
+                        </span>
+                        <span><button class="w3-btn w3-blue btnsp w3-hover-red">Mua hàng <i class="fa fa-shopping-cart" aria-hidden="true"></i> </button></span>}
+                </div>
+            </div>
+        }
+
+    </fieldset>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5de06ec9d96992700fc9d065/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+    </script>
+    <!--End of Tawk.to Script-->
+</div>

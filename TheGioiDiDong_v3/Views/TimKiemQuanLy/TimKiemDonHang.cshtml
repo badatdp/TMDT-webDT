@@ -1,0 +1,135 @@
+﻿@using TheGioiDiDong_v3.Models;
+@using PagedList.Mvc;
+@using PagedList;
+@model PagedList.PagedList<DonHang>
+@{
+    ViewBag.Title = "Tìm kiếm đơn hàng";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>KẾT QUẢ TÌM KIẾM</h2>
+
+<p>
+    @Html.ActionLink("Thêm mới", "ThemMoi","QuanLyDonHang")
+</p>
+@using (Html.BeginForm("TimKiemDonHang", "TimKiemQuanLy", FormMethod.Post, new { @onsubmit = "return KiemTra()", @name = "frmTimKiem" }))
+{
+    //<form action="#" method="post" name="frmTimKiemIndex" onsubmit="return checkTimKiemIndex()">
+    @*<input type="search" name="txtTimKiem" placeholder="Nhập thông tin cần tìm.." size="40">*@
+    @Html.TextBox("txtTimKiem", "", new { @placeholder = "Nhập mã đơn hàng. ..", @style = "max-width:300px;height:20px;margin-left:25px;" })
+    <button style="background-color:black;color:white; height:30px;" class="w3-btn" type="submit"> Tìm kiếm</button>
+    //</form>
+}
+<h3>@Html.Raw(ViewBag.ThongBao)</h3>
+<script>
+    function KiemTra() {
+        var TuKhoa = frmTimKiem.txtTimKiem.value;
+        if (TuKhoa == "") {
+            alert('Nội dung tìm kiếm không được để trống');
+            return false;
+        }
+        if (isNaN(parseInt(TuKhoa)) == true) {
+            alert('Mã đơn hàng phải một số');
+            return false;
+        }
+    }
+</script>
+<table class="table  bangSP">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.First().madonhang)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().KhachHang.ten) khách hàng
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().ngaydat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().ngaygiao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().dathanhtoan)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().tinhtranggiaohang)
+        </th>
+
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                <a href="@Url.Action("Index", "QuanLyChiTietDonHang", new {@madonhang=item.madonhang})"> @Html.DisplayFor(modelItem => item.madonhang)</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KhachHang.ten)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ngaydat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ngaygiao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dathanhtoan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tinhtranggiaohang)
+            </td>
+            <td style="text-align:center">
+                <button style="background-color:blue;"> @Html.ActionLink("Chỉnh sửa", "ChinhSua", "QuanLyDonHang", new { @madonhang = item.madonhang }, new { }) </button>
+                <button style="background-color: green;"> @Html.ActionLink("Hiển thị", "HienThi", "QuanLyDonHang", new { @madonhang = item.madonhang }, new { })</button>
+                <button style="background-color: red;">   @Html.ActionLink("Xoá", "Xoa", "QuanLyDonHang", new { @madonhang = item.madonhang }, new { })</button>
+            </td>
+        </tr>
+    }
+
+</table>
+@if (Model.PageCount > 1)
+{
+    <div class="phantrang">
+
+        @Html.PagedListPager(Model, page => Url.Action("TimKiemDonHang", "TimKiemQuanLy", new { page = page, @iTuKhoa = ViewBag.TuKhoa }))
+    </div>
+}
+<style>
+    div.phantrang {
+        text-align: center;
+        float: left;
+        margin-left: 39%;
+        margin-right: 39%;
+    }
+
+        div.phantrang ul li {
+            display: inline;
+            font-size: 17px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+
+            div.phantrang ul li:not(.active):hover {
+                background-color: #fbe4e4;
+            }
+
+    li.active {
+        background-color: pink;
+    }
+
+    button a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+        button a:hover {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+</style>

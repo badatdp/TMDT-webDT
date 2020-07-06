@@ -1,0 +1,84 @@
+﻿@model TheGioiDiDong_v3.Models.SanPham
+
+@{
+    ViewBag.Title = "Hiển thị";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    dt,dd{
+        margin-bottom:10px;
+        color:black;
+    }
+    dt{
+        color:#080515;
+        font-weight:normal;
+        color:#03052c;
+    }
+</style>
+<h2>CHI TIẾT SẢN PHẨM</h2>
+
+<div style="font-size:19px;margin:10px;">
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dd>
+            <img src="@Url.Content("../Content/image/"+Model.hinh)" width="250" height="500">
+        </dd>
+        <dt style="text-align: left;">
+            @Html.DisplayNameFor(model => model.tenSP)
+        </dt>
+
+        <dd style="color:red;font-weight:bold">
+            @Html.DisplayFor(model => model.tenSP)
+        </dd>
+        <dt style="text-align: left">
+            @Html.DisplayNameFor(model => model.gia)
+        </dt>
+
+        <dd style="color:#7a0646;font-weight:bold">
+            @String.Format("{0:0,0}", Model.gia)<sup>đ</sup>
+        </dd>
+
+        <dt style="text-align: left">
+            @Html.DisplayNameFor(model => model.sl_duocmua)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sl_duocmua)
+        </dd>
+
+        <dt style="text-align: left">
+            @Html.DisplayNameFor(model => model.loaiSP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.loaiSP)
+        </dd>
+
+        <dt style="text-align: left">
+            @Html.DisplayNameFor(model => model.hangSX)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.hangSX)
+        </dd>
+        <dt style="text-align: left">
+            @Html.DisplayNameFor(model => model.tinhtrangSP)
+        </dt>
+
+        <dd style="font-weight:bold;">
+            @Html.DisplayFor(model => model.tinhtrangSP)
+        </dd>
+        <dt style="text-align: left;">
+            @Html.DisplayNameFor(model => model.chitiet)
+        </dt>
+
+        <dd style="text-align: left;color:#604d4d">
+            @Html.Raw(Model.chitiet)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Chỉnh sửa", "ChinhSua", new { @maSP = Model.maSP }) |
+    @Html.ActionLink("Trở về", "Index")
+</p>

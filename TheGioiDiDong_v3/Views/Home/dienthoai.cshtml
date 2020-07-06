@@ -1,0 +1,73 @@
+﻿@using TheGioiDiDong_v3.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<SanPham>
+@{
+    ViewBag.Title = "Điện thoại Apple";
+    Layout = "~/Views/Shared/_LayoutForPage.cshtml";
+}
+@section Legend{
+    <strong>Điện thoại Apple</strong>
+}
+@section Title{
+    Điện thoại Apple
+}
+<!--sp1-->
+@foreach (var item in Model)
+{
+        <div class="sp">
+            <center>
+                <div class="imgSP"><a href="@Url.Action("XemChiTiet", "XemChiTiet", new { maSP = item.maSP })"><img src="@Url.Content("../Content/image/"+@item.hinh)"></a></div><br />
+                <div class="tenSP">
+                    @if (item.tenSP.Length > 30)
+                    {
+                        <strong>@item.tenSP.Substring(0, 30)... </strong>
+                    }
+                    else
+                    {
+                        @item.tenSP
+                    }
+                </div>
+            </center>
+            <div class="giaSP" style="margin-left:25%;">Giá: @String.Format("{0:0,0}", item.gia) <sup> VNĐ</sup><br></div>
+            <div style="margin-left:15%;">
+                @using (Html.BeginForm("ThemGioHang", "GioHang", new { @sMaSP = item.maSP, @strURL = Request.Url.ToString() }))
+                {
+                    <span>
+                        <button class="w3-btn w3-blue btnsp w3-hover-red">
+                            <a href="@Url.Action("xemchitiet", "XemChiTiet" , new { masp=item.maSP })" style="color:white;">Chi tiết</a>
+                        </button>
+                    </span>
+                    <span><button class="w3-btn w3-blue btnsp w3-hover-red" type="submit" style="cursor:pointer">Đặt mua <i class="fa fa-shopping-cart" aria-hidden="true"></i> </button> </span>}
+
+            </div>
+        </div>
+}
+@if (Model.PageCount > 1)
+{
+    <div class="phantrang">
+        @Html.PagedListPager(Model, page => Url.Action("apple", "Home", new { page = page }))
+    </div>
+}
+<style>
+    div.phantrang {
+        text-align: center;
+        float: left;
+        margin-left: 39%;
+        margin-right: 39%;
+    }
+
+        div.phantrang ul li {
+            display: inline;
+            font-size: 17px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+            div.phantrang ul li:not(.active):hover {
+                background-color: #fbe4e4;
+            }
+
+    li.active {
+        background-color: pink;
+    }
+</style>

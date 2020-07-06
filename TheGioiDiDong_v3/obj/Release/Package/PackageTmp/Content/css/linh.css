@@ -1,0 +1,41 @@
+        body{
+            background-color:#FFEFD5;
+            cursor: url("http://downloads.totallyfreecursors.com/cursor_files/1pointer49.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/1pointer49.gif"), auto;}
+
+             ul#menu {
+            list-style-type: none;
+            overflow: hidden;
+            background-color: yellow;
+            width: 98%;
+            padding-left: 0;
+             border:1px solid red;
+             margin-top: 0px;
+            }
+            ul#menu li{
+            float:left;
+            }
+            ul#menu li a{
+                display: block;
+                padding:5px 20px;
+                text-align: center;
+                text-decoration:none;
+                color:blue;
+                font-weight: bold;
+                font-size: 17px;
+            }
+              ul#menu li a:hover{
+                color:red;
+                background-color:#B0E0E6;
+                font-weight:normal;
+            }
+                li.search{float:right;
+                    padding-top:5px;
+                    padding-bottom:5px;
+                    margin-right: 5px;} 
+
+                #badge1 a{
+                    text-decoration:none;
+                    color:white;
+                }
+
+    

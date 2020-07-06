@@ -1,0 +1,101 @@
+﻿@using TheGioiDiDong_v3.Models;
+@using PagedList.Mvc;
+@using PagedList;
+@model PagedList.PagedList<LienHe>
+
+@{
+    ViewBag.Title = "Quản lý thông tin liên hệ";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>QUẢN LÝ THÔNG TIN LIÊN HỆ</h2>
+
+<p>
+    @Html.ActionLink("Thêm mới", "ThemMoi")
+</p>
+@using (Html.BeginForm("TimKiemThongTinLienHe", "TimKiemQuanLy", FormMethod.Post))
+{
+    //<form action="#" method="post" name="frmTimKiemIndex" onsubmit="return checkTimKiemIndex()">
+    @*<input type="search" name="txtTimKiem" placeholder="Nhập thông tin cần tìm.." size="40">*@
+    @Html.TextBox("txtTimKiem", "", new { @placeholder = "Nhập tên khu vực...", @style = "max-width:300px;height:20px;margin-left:25px;" })
+    <button style="background-color:black;color:white; height:30px;" class="w3-btn" type="submit"> Tìm kiếm</button>
+    //</form>
+}
+<h3>@Html.Raw(ViewBag.ThongBao)</h3>
+<table class="table bangSP">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.First().tenkhuvuc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().diachi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().dienthoai)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.tenkhuvuc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.diachi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dienthoai)
+            </td>
+            <td style="text-align:center">
+                <button style="background-color:blue;"> @Html.ActionLink("Chỉnh sửa", "ChinhSua", "QuanLyThongTinLienHe", new { @makhuvuc = item.makhuvuc }, new { }) </button>
+                <button style="background-color: green;"> @Html.ActionLink("Hiển thị", "HienThi", "QuanLyThongTinLienHe", new { @makhuvuc = item.makhuvuc }, new { })</button>
+                <button style="background-color: red;">   @Html.ActionLink("Xoá", "Xoa", "QuanLyThongTinLienHe", new { @makhuvuc = item.makhuvuc }, new { })</button>
+            </td>
+        </tr>
+    }
+
+</table>
+@if (Model.PageCount > 1)
+{
+    <div class="phantrang">
+
+        @Html.PagedListPager(Model, page => Url.Action("Index", "QuanLyThongTinLienHe", new { page = page }))
+    </div>
+}
+<style>
+    div.phantrang {
+        text-align: center;
+        float: left;
+        margin-left: 39%;
+        margin-right: 39%;
+    }
+
+        div.phantrang ul li {
+            display: inline;
+            font-size: 17px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+
+            div.phantrang ul li:not(.active):hover {
+                background-color: #fbe4e4;
+            }
+
+    li.active {
+        background-color: pink;
+    }
+
+    button a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+        button a:hover {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+</style>

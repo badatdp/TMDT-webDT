@@ -1,0 +1,242 @@
+body{
+            background-color:#FFEFD5;
+            cursor: url("http://downloads.totallyfreecursors.com/cursor_files/1pointer49.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/1pointer49.gif"), auto;}
+        * {
+        box-sizing: border-box;}
+        [class*="col-"] {
+        float: left;
+        padding: 15px;}
+        /* For desktop: */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+@media only screen and (max-width: 700px) {
+    /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+        }
+        #table1{width: 100%;}
+        footer{float:left;
+                width:50%;}
+        td#ia{
+                width: 100%;
+                height: auto;}
+        ul#menu li {float: none;
+                display:block;}
+        div#km{
+            margin-top:1%;
+                border: 1px solid red;
+                padding: 0;
+                margin-left:0;
+                left:0;
+                z-index: 1;}
+         #ctoppo{
+            visibility: hidden;            
+         }
+        div#gia{
+            visibility: hidden;
+        }
+        div#divGiaTrenDt{
+                font-weight: bold;
+				position:left bottom;
+				}
+            div#divGiaTrenDt a
+			{text-decoration:none;}
+    }
+        #table1 {
+                border:none;
+                background-color:blue;
+                color:white;
+                font-size:40px; 
+                font-family:'Times New Roman';
+                text-decoration:none;  
+                height: auto;   
+                width:80%;       
+            }
+            td#ia{ max-width: 1055px;
+             height: auto;}
+            ul#menu {
+            list-style-type: none;
+            overflow: hidden;
+            background-color: yellow;
+            width: 50%;
+            padding-left: 0;
+             border:1px solid red;
+             border-radius: 20px;
+            }
+            ul#menu li{
+                display:inline-block;
+            }
+            ul#menu li a:not(.active){
+                display: block;
+                padding: 15px 50px;
+                text-align: center;
+                text-decoration:none;
+                color:blue;
+                font-weight: bold;
+                font-size: 17px;
+            }
+              ul#menu li a:not(.active):hover,.dropdown:hover .dropbtn{
+                color:red;
+                font-weight: bold;
+                font-size:125%;
+                box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.5);
+            }
+                li.dropdown1{display: inline-block;} 
+                 .dropdown-content1 {
+                    display: none;
+                    position: absolute;
+                    background-color: #f9f9f9;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                }
+
+                .dropdown-content1 a {
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+                    text-align: left;
+                    border-bottom: 1px solid #ddd;
+                }
+
+                .dropdown-content1 a:hover {background-color: #f1f1f1;}
+
+                .dropdown1:hover .dropdown-content1 {
+                    display: block;
+                    z-index: 1;
+                }
+            .active{
+                font-weight: bold;
+                font-size: 20px;
+                text-decoration: none;
+
+                }   
+            #ia {
+                border-style: groove;
+                border-width:5px;
+                border-color:aqua;
+            }
+           #ib {
+                border:thin solid black;
+                height: 13px;
+                width: 259px;
+            }
+           
+            .auto-style1 {
+                width: 290px;
+            }
+            div#km {
+            padding:30px;
+            border:25px solid navy;
+            background-color:white;
+            height: auto;
+            color:red;
+             margin: auto;
+             float: left;
+             margin-top: 2%;
+            margin-left: 15%;
+            max-width: 700px;
+
+        }          
+                
+            nav, section, footer {
+                display:block;
+            }        
+            nav {
+                float:right;
+                width: 319px;
+                height: 608px;
+            }
+            div#gia{
+                height: auto;
+                max-width:100px;
+                border:2px solid green;
+                color: green;
+                padding: 10px 10px;
+                margin: 10px 5px;
+                font-weight: bold;
+                outline-style: groove;
+                outline-color: green;
+                position: fixed;
+                right: 0;
+                bottom: 0;
+                background-color: white;
+                
+            }
+            div#gia a{text-decoration:none;}
+            #gia:hover{
+                border:1px solid lightgreen;
+                color:white;
+                font-weight: bold;
+                background-color: lightgreen;
+            }
+            footer {
+                float:left;
+                width: 100%;
+                height: auto;
+            }
+            #ic:hover{
+                background-color:#B0E0E6;
+            }
+            #ic {
+               font-size:15px;
+                border-radius: 25px;
+                border:2px solid Gainsboro;
+                width:200px;
+                height: 300px;
+                margin:5px 5px;
+                height: 262px;
+            }
+            div#divSP{
+                margin-left: 50px;
+                margin-top: 5%;
+            }
+            #username{
+                text-transform: capitalize;
+            }
+            input:focus{
+                background-color: linen;
+            }
+            #ic::after{
+                background-color: yellow;
+                content: "--trả góp lãi xuất 0%";
+                color:red;
+                 font-weight: bold;
+            }
+             .dropdown{
+                position: relative;
+                display:inline-block;
+            }
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                color:blue;
+                font-weight: bold;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+                padding: 12px 16px;
+                z-index: 1;
+                border-bottom: 1px solid #ddd;
+            }
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+            #ctoppo{
+                height: auto;
+                max-width: 400px;
+                z-index: 1;
+            }
+			
+ 

@@ -1,0 +1,30 @@
+﻿@using TheGioiDiDong_v3.Models;
+@model List<LienHe>
+@{
+    ViewBag.Title = "lienhe";
+    Layout = "~/Views/Shared/_LayoutForPage.cshtml";
+}
+@section Legend{
+    <strong>Liên hệ</strong>
+}
+@section Title{
+    Liên hệ
+}<div class="ttKhuVuc">
+    @foreach (var item in Model)
+    {
+         <div class="divLienHe w3-card-4">
+        <div class="khuvuc">KHU VỰC @item.tenkhuvuc</div>
+       <div class="info">
+        <ul><li class="lc">@item.diachi</li>
+        <li class="tl">Điện thoại: @item.dienthoai </li>
+        </ul> </div></div>
+    }
+    </div>
+<div class="bando">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.731373051505!2d106.66244571435256!3d10.983637292181143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d13cccab4c93%3A0xe7ac8d98a40e18b6!2zVGjhur8gR2nhu5tpIERpIMSQ4buZbmc!5e0!3m2!1svi!2sus!4v1476875190159" width="680" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+
+
+
+

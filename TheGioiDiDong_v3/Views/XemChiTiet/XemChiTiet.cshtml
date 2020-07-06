@@ -1,0 +1,26 @@
+﻿@using TheGioiDiDong_v3.Models;
+@model SanPham
+@{
+    ViewBag.Title = "XemChiTiet";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Xem Chi Tiết</h2>
+<div class="ctTenSP"><h3>@Model.tenSP</h3></div>
+<hr />
+<div class="ctHinhMaSP" style="float:left;margin:10px;"><img src="@Url.Content("../Content/image/"+Model.hinh)" width="400" height="100%"></div>
+<div class="ctSP">
+    <div class="giaSP">Giá: @String.Format("{0:0,0}", @Model.gia)<sup>VNĐ</sup><img src="../Content/image/hot.gif" style="margin-left:10px" weight="110" height="50" /></div>
+    <div style="color: black;">Hãng sản xuất: <b style="color:orangered;">@Model.hangSX</b></div>
+    <div style="color: black;">Số lượng đã bán:<b style="color:orangered;"> @Model.sl_duocmua</b></div>
+    <div style="color: black;">Tình trạng:<i style=" color:orangered;"> @Model.tinhtrangSP</i></div>
+    <div style="color:#535151;font-weight:normal"><b style="color:black;">Mô tả sản phẩm: </b><br />@Html.Raw(@Model.chitiet)</div>
+    <div>
+        @using (Html.BeginForm("ThemGioHang", "GioHang", new { @sMaSP = Model.maSP, @strURL = Request.Url.ToString() }))
+        {<button class="w3-btn w3-blue btnsp w3-hover-red" style="width:200px;height:50px;float:left;margin-top:20px; cursor:pointer" type="submit">Mua hàng <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>}
+    </div>
+    @*<div>
+        <a class="w3-center" href="https://www.baokim.vn/payment/product/version11?business=thaitruclinh151296%40gmail.com&id=&order_description=Laptop+Acer+R3+131T+N3060%2F2GB%2F500GB%2FWin10&product_name=Laptop+Acer+R3+131T+N3060%2F2GB%2F500GB%2FWin10&product_price=6990000&product_quantity=1&total_amount=6990000&url_cancel=&url_detail=http%3A%2F%2Flocalhost%3A1389%2FXemChiTiet%2FXemChiTiet%3FmaSP%3DMT9&url_success=http%3A%2F%2Flocalhost%3A1389%2FGioHang%2FXacNhanThanhToan"><img src="http://www.baokim.vn/developers/uploads/baokim_btn/thanhtoan-l.png" alt="Thanh toán an toàn với Bảo Kim !" border="0" title="Thanh toán trực tuyến an toàn dùng tài khoản Ngân hàng (VietcomBank, TechcomBank, Đông Á, VietinBank, Quân Đội, VIB, SHB,... và thẻ Quốc tế (Visa, Master Card...) qua Cổng thanh toán trực tuyến BảoKim.vn"></a>
+    </div>*@
+</div>
+

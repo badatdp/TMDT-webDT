@@ -1,0 +1,28 @@
+﻿<style>
+    ul#menu li a {
+        display: block;
+        padding: 5px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: blue;
+        font-weight: bold;
+        font-size: 17px;
+    }
+</style>
+<div>
+    <ul id="menu">
+        <li>@Html.ActionLink("Trang chủ", "Index", "Home")</li>
+        <li>
+            @Html.ActionLink("Điện thoại Android", "maytinh", "Home")
+        </li>
+        <li>
+           @Html.ActionLink("Điện thoại Apple", "dienthoai", "Home")
+        </li>
+        <li>
+            @Html.ActionLink("Điện thoại Gaming", "tablet", "Home")
+        </li>
+        <li>@Html.ActionLink("Khuyến mãi", "khuyenmai", "Home")</li>
+        <li>@Html.ActionLink("Tuyển dụng", "tuyendung", "Home")</li>
+        <li>@Html.ActionLink("Liên hệ", "lienhe", "Home")</li>
+    </ul>
+</div>

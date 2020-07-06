@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="banhangModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ChiTietDonHang">
+    <Key>
+      <PropertyRef Name="madonhang" />
+      <PropertyRef Name="maSP" />
+    </Key>
+    <Property Name="madonhang" Type="int" Nullable="false" />
+    <Property Name="maSP" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="soluong" Type="int" />
+    <Property Name="dongia" Type="int" />
+  </EntityType>
+  <EntityType Name="DonHang">
+    <Key>
+      <PropertyRef Name="madonhang" />
+    </Key>
+    <Property Name="madonhang" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ngaygiao" Type="datetime" />
+    <Property Name="ngaydat" Type="datetime" />
+    <Property Name="dathanhtoan" Type="nvarchar" MaxLength="255" />
+    <Property Name="tinhtranggiaohang" Type="nvarchar" MaxLength="255" />
+    <Property Name="maKH" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HangSX">
+    <Key>
+      <PropertyRef Name="hangSX" />
+    </Key>
+    <Property Name="hangSX" Type="nvarchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KhachHang">
+    <Key>
+      <PropertyRef Name="maKH" />
+    </Key>
+    <Property Name="maKH" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ten" Type="nvarchar" MaxLength="255" />
+    <Property Name="ngaysinh" Type="datetime" />
+    <Property Name="email" Type="varchar" MaxLength="255" />
+    <Property Name="tenDN" Type="varchar" MaxLength="255" />
+    <Property Name="matkhau" Type="varchar" MaxLength="255" />
+    <Property Name="xacnhanMK" Type="varchar" MaxLength="255" />
+    <Property Name="dienthoai" Type="varchar" MaxLength="255" />
+    <Property Name="gioitinh" Type="bit" />
+    <Property Name="diachi" Type="nvarchar" MaxLength="255" />
+    <Property Name="role" Type="int" />
+  </EntityType>
+  <EntityType Name="KhuyenMai">
+    <Key>
+      <PropertyRef Name="maKM" />
+    </Key>
+    <Property Name="maKM" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tenKM" Type="nvarchar" MaxLength="255" />
+    <Property Name="hinhKM" Type="nvarchar" MaxLength="255" />
+    <Property Name="thoihan" Type="nvarchar" MaxLength="255" />
+    <Property Name="chitiet" Type="nvarchar" MaxLength="4000" />
+  </EntityType>
+  <EntityType Name="LienHe">
+    <Key>
+      <PropertyRef Name="makhuvuc" />
+    </Key>
+    <Property Name="makhuvuc" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tenkhuvuc" Type="nvarchar" MaxLength="255" />
+    <Property Name="diachi" Type="nvarchar" MaxLength="255" />
+    <Property Name="dienthoai" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="SanPham">
+    <Key>
+      <PropertyRef Name="maSP" />
+    </Key>
+    <Property Name="maSP" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="tenSP" Type="nvarchar" MaxLength="255" />
+    <Property Name="chitiet" Type="nvarchar(max)" />
+    <Property Name="hinh" Type="varchar" MaxLength="255" />
+    <Property Name="gia" Type="int" />
+    <Property Name="sl_duocmua" Type="int" />
+    <Property Name="loaiSP" Type="nvarchar" MaxLength="255" />
+    <Property Name="hangSX" Type="nvarchar" MaxLength="255" />
+    <Property Name="tinhtrangSP" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="TuyenDung">
+    <Key>
+      <PropertyRef Name="ma" />
+    </Key>
+    <Property Name="ma" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="vitri" Type="nvarchar" MaxLength="255" />
+    <Property Name="mucluong" Type="nvarchar" MaxLength="255" />
+    <Property Name="soluong" Type="int" />
+    <Property Name="noilamviec" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <EntityContainer Name="banhangModelStoreContainer">
+    <EntitySet Name="ChiTietDonHang" EntityType="Self.ChiTietDonHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DonHang" EntityType="Self.DonHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HangSX" EntityType="Self.HangSX" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KhachHang" EntityType="Self.KhachHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KhuyenMai" EntityType="Self.KhuyenMai" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LienHe" EntityType="Self.LienHe" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SanPham" EntityType="Self.SanPham" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TuyenDung" EntityType="Self.TuyenDung" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,305 @@
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\TheGioiDiDong_v3.dll.config
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\TheGioiDiDong_v3.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\TheGioiDiDong_v3.pdb
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Antlr3.Runtime.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.SqlServer.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Core.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Cookies.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Facebook.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Google.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.OAuth.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Twitter.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Web.Infrastructure.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Newtonsoft.Json.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Owin.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.Mvc.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Helpers.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Mvc.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Optimization.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Razor.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Deployment.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Razor.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\WebGrease.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.Mvc.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Helpers.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Mvc.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Optimization.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Razor.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Deployment.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Razor.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Newtonsoft.Json.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Antlr3.Runtime.pdb
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.SqlServer.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Core.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Facebook.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Cookies.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.OAuth.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Google.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Twitter.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.dll
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.pdb
+D:\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v31 - Copy\TheGioiDiDong_v3\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.csprojResolveAssemblyReference.cache
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\TheGioiDiDong_v3.dll.config
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\TheGioiDiDong_v3.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\TheGioiDiDong_v3.pdb
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Antlr3.Runtime.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.SqlServer.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Core.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Cookies.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Facebook.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Google.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.OAuth.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Twitter.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Web.Infrastructure.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Newtonsoft.Json.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Owin.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.Mvc.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Helpers.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Mvc.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Optimization.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Razor.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Deployment.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Razor.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\WebGrease.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.SqlServer.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Core.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.Mvc.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Helpers.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Mvc.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Optimization.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Razor.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Deployment.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Razor.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Newtonsoft.Json.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Antlr3.Runtime.pdb
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Facebook.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Cookies.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.OAuth.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Google.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Twitter.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.csprojResolveAssemblyReference.cache
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.dll
+E:\TranDangCuong\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.pdb
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\TheGioiDiDong_v3.dll.config
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\TheGioiDiDong_v3.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\TheGioiDiDong_v3.pdb
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Owin.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PayPal.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\WebGrease.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PayPal.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.csproj.CopyComplete
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.dll
+C:\Users\Admin\Desktop\ThuongMaiDienTu_Nhom5\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.pdb
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\TheGioiDiDong_v3.dll.config
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\TheGioiDiDong_v3.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\TheGioiDiDong_v3.pdb
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Owin.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PayPal.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\WebGrease.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PayPal.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.csproj.CopyComplete
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.dll
+C:\Users\Admin\Desktop\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.pdb
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\TheGioiDiDong_v3.dll.config
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\TheGioiDiDong_v3.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\TheGioiDiDong_v3.pdb
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Antlr3.Runtime.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.SqlServer.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Google.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Web.Infrastructure.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Newtonsoft.Json.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Owin.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.Mvc.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PayPal.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Helpers.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Mvc.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Optimization.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Razor.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Deployment.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Razor.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\WebGrease.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\EntityFramework.SqlServer.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Newtonsoft.Json.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PagedList.Mvc.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\PayPal.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Helpers.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Mvc.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Optimization.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.Razor.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Deployment.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\System.Web.WebPages.Razor.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Antlr3.Runtime.pdb
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Google.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.csprojAssemblyReference.cache
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.csproj.CopyComplete
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.dll
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.pdb
+D:\Lập trình web\Source Code\TheGioiDiDong_v3-20191231T100944Z-001\TheGioiDiDong_v3\TheGioiDiDong_v3\obj\Release\TheGioiDiDong_v3.csproj.CoreCompileInputs.cache

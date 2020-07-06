@@ -1,0 +1,66 @@
+﻿h2{
+    color:#0026ff;
+}
+p.chucnang a:hover{
+    font-weight:bold;
+    text-decoration:none;
+}
+table.bangSP th{
+  text-align:center;
+  background-color:#fef2f2;
+}
+table,th,td{
+    border:1px solid #ddd;
+}
+/**/
+ div.col-md-10 select {
+        margin-left: 5%;
+        margin-bottom: 2%;
+        background-color: #fcee9f;
+    }
+    div.col-md-10 input:not(.btnSubmit) {
+        margin-left: 5%;
+        margin-bottom: 2%;
+        background-color: #fcee9f;
+    }
+   input[type="file"]{
+       background-color:none;
+   }
+        div.col-md-10 input:focus {
+            background-color:#ffd800;
+            color:black;
+        }
+        div.col-md-10 select:focus {
+            background-color: #ffd800;
+            color: black;
+        }
+    div.col-md-10 select option {
+        background-color: #fcee9f;
+    }
+             div.form-group label {
+                font-weight: bold;
+            }
+             div.uploader{
+        margin-left: 5%;
+        margin-bottom: 2%;
+        background-color: #fcee9f;
+             }
+              span.filename{
+                 width:125px;
+             }
+             span.action{
+                 width:90px;
+             }
+             .btnSubmit{
+                 background-color:blue;
+                 color:white;
+                 height:50px;
+                 margin-left:250px;
+                 width:150px;
+             }
+             .btnSubmit:hover{
+                  background-color:red;
+             }
+             span.field-validation-error{
+                 color:#781f1f;
+             }

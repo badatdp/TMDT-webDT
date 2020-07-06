@@ -1,0 +1,169 @@
+﻿@model TheGioiDiDong_v3.Models.KhachHang
+
+@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="@Url.Content("~/jquery/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/jquery/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+<style>
+    span {
+        color: red;
+        font-weight: normal;
+    }
+
+    label {
+        font-size: 17px;
+    }
+</style>
+<div class="frmDangKy w3-card-4" style="height:550px;">
+    <div style="width:100%">
+        <div class="w3-black w3-padding w3-left" style="width:25%">
+            ĐĂNG KÝ
+        </div>
+    </div>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            @Html.ValidationSummary(true)
+            <div class="ttcanhan">
+                <fieldset class="fieldset1">
+                    <legend class="legend1">Thông tin cá nhân</legend>
+                    <table>
+                        <tr>
+                            <td><label>@Html.LabelFor(model => model.ten)</label></td>
+                            <td class="ndInput">
+                                @Html.EditorFor(model => model.ten)
+                                <span><label>(*) @Html.ValidationMessageFor(model => model.ten)</label></span>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>@Html.LabelFor(model => model.ngaysinh)</label></td>
+                            <td class="ndInput">
+                                @Html.EditorFor(model => model.ngaysinh)
+                                <span><label>(*) @Html.ValidationMessageFor(model => model.ngaysinh)</label></span>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>@Html.LabelFor(model => model.email)</label></td>
+                            <td class="ndInput">
+                                @Html.TextBoxFor(model => model.email, new { @placeholder = "vd: linh151296@gmail.com" })
+                                <span><label>(*) @Html.ValidationMessageFor(model => model.email)</label></span>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>@Html.LabelFor(model => model.tenDN)</label></td>
+                            <td class="ndInput">
+                                @Html.TextBoxFor(model => model.tenDN)
+                                <span><label>(*) @Html.ValidationMessageFor(model => model.tenDN)</label></span>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>@Html.LabelFor(model => model.matkhau)</label></td>
+                            <td class="ndInput">
+                                @Html.PasswordFor(model => model.matkhau)
+                                <span><label>(*) @Html.ValidationMessageFor(model => model.matkhau)</label></span>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>@Html.LabelFor(model => model.xacnhanMK)</label></td>
+                            <td class="ndInput">
+                                @Html.PasswordFor(model => model.xacnhanMK)
+                                <span><label>(*) @Html.ValidationMessageFor(model => model.xacnhanMK)</label></span>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>@Html.LabelFor(model => model.dienthoai)</label></td>
+                            <td class="ndInput">
+                                @Html.EditorFor(model => model.dienthoai)
+                                <span><label>(*) @Html.ValidationMessageFor(model => model.dienthoai)</label></span>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>@Html.LabelFor(model => model.gioitinh)</label></td>
+                            <td class="ndInput">
+                                @*@Html.EditorFor(model => model.gioitinh)*@
+                                @Html.DropDownListFor(model => model.gioitinh, new List<SelectListItem>() { new SelectListItem { Text = "Nam", Value = "True", Selected = true }, new SelectListItem { Text = "Nữ", Value = "False", Selected = false } })
+                                <span><label>@Html.ValidationMessageFor(model => model.gioitinh)</label></span>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>@Html.LabelFor(model => model.diachi)</label></td>
+                            <td class="ndInput">
+                                @Html.EditorFor(model => model.diachi)
+                                <span><label>(*) @Html.ValidationMessageFor(model => model.diachi)</label></span>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </div>
+            <div class="ttcanhan" style="margin-top:3%">
+                <fieldset>
+                    <input type="submit" id="btnDangKy" value="Xác nhận đăng ký" class="w3-btn w3-blue w3-hover-red w3-large" />
+                    <button type="reset" class="w3-btn w3-blue w3-hover-red w3-large">Huỷ bỏ</button>
+                </fieldset>
+            </div>
+        </div>
+
+    }
+
+</div>
+<div style="margin-top:30px;font-size:25px;">
+    @Html.ActionLink("<= Trở về Trang chủ", "Index", "Home")
+</div>
+@*<script type="text/javascript">
+        $('#btnDangKy').click(function(){
+            if($('#ten').val()=="")
+            {
+                $('#ktTen').text('Chưa nhập Họ và tên');
+                return false;
+            }
+            else {
+                $('#ktTen').text('');
+            }
+            if ($('#email').val() == "") {
+                $('#ktEmail').text('Chưa nhập Email');
+                return false;
+            }
+            else {
+                $('#ktEmail').text('');
+            }
+            if ($('#matkhau').val() == "") {
+                $('#ktMatKhau').text('Chưa nhập Mật khẩu');
+                return false;
+            }
+            else {
+                $('#ktMatKhau').text('');
+            }
+            /*if ($('#ten').val() == "") {
+                $('#ktTen').text('Chưa nhập Họ và tên');
+                return false;
+            }*/
+            if ($('#dienthoai').val() == "") {
+                $('#ktSdt').text('Chưa nhập Số điện thoại');
+                return false;
+            }
+            else {
+                $('#ktSdt').text('');
+            }
+            if ($('#gioitinh').val() == "") {
+                $('#ktGt').text('Chưa nhập Giới tính');
+                return false;
+            }
+            else {
+                $('#gioitinh').text('');
+            }
+
+        }
+            );
+    </script>*@

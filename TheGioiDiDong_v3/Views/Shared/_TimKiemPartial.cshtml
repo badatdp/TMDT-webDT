@@ -1,0 +1,65 @@
+﻿<div class="timSP">
+    <center>
+        <div class="tieudetimkiem">
+            <img src="~/Content/image/tieudetimkiem.jpg">
+        </div>
+        <div class="timkiem">
+@using (Html.BeginForm("KetQuaTimKiemNangCao", "TimKiem", FormMethod.Post, new {@name="frmTimKiemNangCao",@onsubmit="return KiemTra()" }))
+{
+                 <select style="margin-top:10px;" name="txtLoaiSP">
+                     <option style="text-align:center;">---Loại sản phẩm---</option>
+                     <option style="text-align:center;">Điện thoại Android</option>
+                     <option style="text-align:center;">Điện thoại Apple</option>
+                     <option style="text-align:center;">Điện thoại Gaming</option>
+    </select>
+                <input style="margin-top:10px;" type="textbox" name="txtHangSX" size="1000" maxlength="1000" placeholder="Hãng sản xuất..">
+                 @*<input style="margin-top:10px;" type="textbox"  name="txtGiaTu" size="1000" maxlength="1000" placeholder="Giá từ..">*@
+               
+                @*<select>
+                    <option checked>---Hãng---</option>
+                    <option name="hang">...</option>
+                </select>*@
+    <select style="margin-top: 10px;" name="txtGiaTu">
+        <option checked>---Giá từ---</option>
+        <script>
+            var i;
+            for (i = 0; i < 20000000; i += 5000000) {
+                document.write("<option>" + i + "</option>");
+            }
+        </script>
+    </select>
+    <select style="margin-top: 10px; margin-bottom: 10px;" name="txtGiaDen">
+        <option checked>---Đến---</option>
+        <script>
+            var i;
+            for (i = 5000000; i < 50000000; i += 5000000) {
+                document.write("<option> " +i+ "</option>");
+            }
+        </script>
+    </select>
+                <button type="submit" class="w3-btn w3-blue">Tìm kiếm</button>
+    <script>
+    function KiemTra() {
+        var loaiSP = frmTimKiemNangCao.txtLoaiSP.value;
+        var hangSX = frmTimKiemNangCao.txtHangSX.value;
+        var giaTu = frmTimKiemNangCao.txtGiaTu.value;
+        var giaDen = frmTimKiemNangCao.txtGiaDen.value;
+        if(loaiSP=="---Loại sản phẩm---")
+        {
+            alert('Chưa chọn loại sản phẩm');
+            return false;
+        }
+        if (hangSX == "") {
+            alert('Chưa nhập hãng sản xuất');
+            return false;
+        }
+        if (isNaN(giaTu)==true ||isNaN(giaDen)==true || (isNaN(giaTu)==true && isNaN(giaDen)==true)) {
+            alert('Phải nhập đầy đủ các yêu cầu về giá');
+            return false;
+        }
+    }
+</script>
+}
+        </div>
+    </center>
+</div>

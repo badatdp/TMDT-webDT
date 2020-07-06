@@ -1,0 +1,134 @@
+﻿@using TheGioiDiDong_v3.Models;
+@using PagedList.Mvc;
+@using PagedList;
+@model PagedList.PagedList<KhachHang>
+@{
+    ViewBag.Title = "Quản lý tài khoản KH";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>QUẢN LÝ TÀI KHOẢN KHÁCH HÀNG</h2>
+
+<p>
+    @Html.ActionLink("Thêm khách hàng", "ThemKhachHang")
+</p>
+@using (Html.BeginForm("TimKiemKhachHang", "TimKiemQuanLy", FormMethod.Post))
+{
+    //<form action="#" method="post" name="frmTimKiemIndex" onsubmit="return checkTimKiemIndex()">
+    @*<input type="search" name="txtTimKiem" placeholder="Nhập thông tin cần tìm.." size="40">*@
+    @Html.TextBox("txtTimKiem", "", new { @placeholder = "Nhập tên khách hàng...", @style = "max-width:300px;height:20px;margin-left:25px;" })
+    <button style="background-color:black;color:white; height:30px;" class="w3-btn" type="submit"> Tìm kiếm</button>
+    //</form>
+}
+    <table class="table bangSP ">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().ten)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().ngaysinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().tenDN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().matkhau)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().dienthoai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().gioitinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().diachi)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ten)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ngaysinh)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tenDN)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.matkhau)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.dienthoai)
+                </td>
+                <td>
+                    @if (item.gioitinh == true)
+                    {
+                        @Html.Label("Nam");
+                    }
+                    else
+                    {
+                        @Html.Label("Nữ");
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.diachi)
+                </td>
+                <td style="text-align:center">
+                    <button style="background-color:blue;"> @Html.ActionLink("Chỉnh sửa", "ChinhSua", "QuanLyTaiKhoanKhachHang", new { @maKh = item.maKH }, new { }) </button>
+                    <button style="background-color: green;"> @Html.ActionLink("Hiển thị", "HienThi", "QuanLyTaiKhoanKhachHang", new { @maKh = item.maKH }, new { })</button>
+                    <button style="background-color: red;">   @Html.ActionLink("Xoá", "Xoa", "QuanLyTaiKhoanKhachHang", new { @maKh = item.maKH }, new { })</button>
+                </td>
+            </tr>
+        }
+    </table>
+@if (Model.PageCount > 1) { 
+<div class="phantrang">
+
+    @Html.PagedListPager(Model, page => Url.Action("Index", "QuanLyTaiKhoanKhachHang", new { page = page }))
+</div>
+}
+<style>
+    div.phantrang {
+        text-align: center;
+        float: left;
+        margin-left: 39%;
+        margin-right: 39%;
+    }
+
+        div.phantrang ul li {
+            display: inline;
+            font-size: 17px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+
+            div.phantrang ul li:not(.active):hover {
+                background-color: #fbe4e4;
+            }
+
+    li.active {
+        background-color: pink;
+    }
+
+    button a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+        button a:hover {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+</style>

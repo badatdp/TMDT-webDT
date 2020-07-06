@@ -1,0 +1,47 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/linh.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/CssForPage.css">  
+    <link rel="stylesheet" type="text/css" href="~/Content/css/w3.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <title>@RenderSection("Title")</title>
+    <style>
+        body {
+            cursor: url("http://downloads.totallyfreecursors.com/cursor_files/1pointer49.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/1pointer49.gif"), auto;
+            font-family: 'Times New Roman';
+        }
+    </style>
+</head>
+<body>
+    <script src="~/Content/js/script.js"></script>
+    <center>
+        @Html.Partial("_NavbarPartial")
+        <div class="hotrokhachhang"><img src="~/Content/image/hotro.png" /></div>
+        <!--***Hỗ trợ khách hàng***-->
+        @Html.Partial("_HoTroKhachHangPartial");
+        <div class="noidung" style="height:auto">
+            <div class=header>
+             
+                <img style="width:1000px; height:130px" src="~/Content/image/20_08_2016_08_48_46_Dien-Thoai---Tablet-800-300.jpg">
+            </div>
+            @Html.Partial("_MenuPartial")
+            <!--Máy tính-->
+            <div class="danhmucSP">
+                <fieldset class="fieldset1">
+                    <legend class="legend1">@RenderSection("Legend", required: false)</legend>
+                    @RenderBody()
+                </fieldset>
+            </div>
+        </div>
+        <!--***footer***-->
+        @Html.Partial("_FooterPartial")
+        </div>
+    </center>
+    <!--***LOGIN***-->
+    @Html.Partial("_DangNhapPartial")
+</body>
+</html>
+

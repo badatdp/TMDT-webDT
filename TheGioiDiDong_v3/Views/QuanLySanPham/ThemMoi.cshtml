@@ -1,0 +1,100 @@
+﻿@model TheGioiDiDong_v3.Models.SanPham
+
+@{
+    ViewBag.Title = "Thêm mới";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>THÊM MỚI SẢN PHẨM</h2>
+@*Thêm thuộc tính cho form để upload ảnh*@
+    @using (Html.BeginForm("ThemMoi", "QuanLySanPham", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <hr />
+            @Html.ValidationSummary(true)
+            <div class="form-group">
+               @Html.LabelFor(model => model.maSP, new { style = "text-align:left", @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.maSP)
+                    @Html.ValidationMessageFor(model => model.maSP)
+                </div>
+            </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.tenSP, new { style = "text-align:left", @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.tenSP)
+                        @Html.ValidationMessageFor(model => model.tenSP)
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.hinh, new { style = "text-align:left", @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @*Name của thẻ input[file] phải cùng tên với tham số bên Controller*@
+                       <input type="file" name="fileUpload" style="width:150px;"/>
+                        @*Thông báo trùng*@
+                        @ViewBag.thongbao
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.gia, new { style = "text-align:left", @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.gia)
+                        @Html.ValidationMessageFor(model => model.gia)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" style="margin-right: 106px;margin-left: -107px;">Số lượng</label>
+                    
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.sl_duocmua)
+                        @Html.ValidationMessageFor(model => model.sl_duocmua)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.loaiSP, new { style = "text-align:left", @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @*@Html.EditorFor(model => model.loaiSP)*@
+                        @Html.DropDownListFor(model => model.loaiSP, new List<SelectListItem>() { new SelectListItem { Text = "Điện thoại Android", Value = "Máy tính", Selected = true }, new SelectListItem { Text = "Điện thoại", Value = "Điện thoại Apple", Selected = false }, new SelectListItem { Text = "Điện thoại Gaming", Value = "Tablet", Selected = false } })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.hangSX, new { style = "text-align:left", @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.hangSX)
+                        @Html.ValidationMessageFor(model => model.hangSX)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.tinhtrangSP, new { style = "text-align:left", @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @*@Html.EditorFor(model => model.tinhtrangSP)*@
+                        @Html.DropDownListFor(model => model.tinhtrangSP, new List<SelectListItem>() { new SelectListItem { Text = "Còn hàng", Value = "Còn hàng", Selected = true }, new SelectListItem { Text = "Hết hàng", Value = "Hết hàng", Selected = false } })
+                    </div>
+                </div>
+                <div class="form-group">
+                 @Html.LabelFor(model => model.chitiet, new { style = "text-align:left", @class = "control-label col-md-2" })
+                    <br />
+                    <br />
+                    <div class="col-md-10">
+                        <textarea name="chitiet">Nhập chi tiết cho sản phẩm...</textarea>
+                    </div>
+                </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input class="btnSubmit" type="submit" value="Thêm" style=" margin-top: 1%; margin-left: 25%; width: 100px; height: 50px;" />
+                </div>
+            </div>
+            </div>
+    }
+ 
+    <div>
+        @Html.ActionLink("Trở về", "Index")
+    </div>

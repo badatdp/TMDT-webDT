@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="websitebangiay" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\TranDangCuong\\TheGioiDiDong_v3\\TheGioiDiDong_v3\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\TranDangCuong\\TheGioiDiDong_v3\\TheGioiDiDong_v3\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="banhangEntities1-Web.config Connection String" description="" value="metadata=res://*/Models.WebsiteBanHangOnlineModel.csdl|res://*/Models.WebsiteBanHangOnlineModel.ssdl|res://*/Models.WebsiteBanHangOnlineModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=websitebangiay.database.windows.net,1433;Initial Catalog=webgiay;Persist Security Info=False;User ID=login;Password=A!1234567;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\TranDangCuong\\TheGioiDiDong_v3\\TheGioiDiDong_v3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='banhangEntities1']/@connectionString" />
+  </parameter>
+  <parameter name="connection-Web.config Connection String" description="" value="Data Source=websitebangiay.database.windows.net,1433;Initial Catalog=webgiay;Persist Security Info=False;User ID=login;Password=A!1234567;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\TranDangCuong\\TheGioiDiDong_v3\\TheGioiDiDong_v3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='connection']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="data source=websitebangiay.database.windows.net,1433;initial catalog=webgiay;persist security info=False;user id=login;password=A!1234567;connect timeout=30;encrypt=True;trustservercertificate=False;MultipleActiveResultSets=False" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\TranDangCuong\\TheGioiDiDong_v3\\TheGioiDiDong_v3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
